@@ -47,6 +47,7 @@ namespace WraptorPrinterTest
                 made.Add(x.Trim());
                 while (!print(tbName.Text, x)) { }
                 DateTime dt = DateTime.Now.AddSeconds(3);
+
                 while (dt > DateTime.Now) { }
             }
         }
